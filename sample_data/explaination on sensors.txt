@@ -1,0 +1,40 @@
+TEMP_LIVINGROOM:
+
+Real Sensor Names: Digital Temperature Sensor (like DHT11, DHT22, LM35), Room Thermometer, Smart Thermostat Sensor
+Explanation: This sensor measures the temperature in the living room. Think of a regular thermometer, but often these are electronic and can send the data automatically. Smart thermostats use these to control heating and cooling.
+HUMID_KITCHEN:
+
+Real Sensor Names: Humidity Sensor (like DHT11, DHT22, BME280), Hygrometer, Humidity and Temperature Sensor
+Explanation: This sensor measures the amount of moisture in the air (humidity) in the kitchen. You might have seen a hygrometer to check humidity levels. These are important in kitchens where steam from cooking can increase humidity.
+MOTION_HALLWAY:
+
+Real Sensor Names: Passive Infrared (PIR) Motion Sensor, Ultrasonic Motion Sensor, Occupancy Sensor
+Explanation: This sensor detects movement in the hallway. PIR sensors are very common and work by detecting changes in infrared radiation (heat). These are used in security systems and automatic lights.
+LIGHT_BEDROOM:
+
+Real Sensor Names: Light Dependent Resistor (LDR), Photoresistor, Ambient Light Sensor, Lux Meter Sensor
+Explanation: This sensor measures the intensity of light in the bedroom. LDRs change their electrical resistance based on how much light falls on them. These are used in automatic streetlights and to adjust screen brightness. The value "350" likely represents a unit of light intensity like lux.
+WATER_BATHROOM:
+
+Real Sensor Names: Water Leak Sensor, Water Detector, Flood Sensor
+Explanation: This sensor detects the presence of water in the bathroom, which could indicate a leak or overflow. These are crucial for preventing water damage. The value "0" likely means no water is detected.
+GAS_GARAGE:
+
+Real Sensor Names: Gas Sensor (specific to the type of gas, e.g., MQ-series sensors for various gases like propane, butane, carbon monoxide), Combustible Gas Sensor, Air Quality Sensor (some can detect gas leaks)
+Explanation: This sensor detects the presence of gas in the garage. It's important for safety to detect potentially harmful or flammable gases. The value "LOW" indicates the gas level is below a certain threshold.
+PRESSURE_GARDEN:
+
+Real Sensor Names: Barometric Pressure Sensor (like BMP180, BMP280), Atmospheric Pressure Sensor
+Explanation: This sensor measures the atmospheric pressure in the garden. Barometric pressure is often used in weather forecasting.
+AIRQUALITY_BALCONY:
+
+Real Sensor Names: Air Quality Sensor (like MQ135, PMS5003), Particulate Matter (PM) Sensor, VOC (Volatile Organic Compound) Sensor
+Explanation: This sensor measures the quality of the air on the balcony. It might detect things like dust particles, pollutants, and other gases. The value "45" likely represents an air quality index or the concentration of a specific pollutant.
+SOILMOISTURE_PLANT1:
+
+Real Sensor Names: Soil Moisture Sensor, Capacitive Soil Moisture Sensor, Resistive Soil Moisture Sensor
+Explanation: This sensor measures the amount of water present in the soil of plant 1. This is helpful for knowing when to water plants. The value "78" likely represents a percentage of moisture.
+INFRARED_FRONTDOOR:
+
+Real Sensor Names: Infrared (IR) Proximity Sensor, IR Obstacle Avoidance Sensor, IR Beam Break Sensor
+Explanation: This sensor uses infrared light to detect if something is near the front door. It could be used to detect if someone is approaching without physically touching anything. The value "0" might indicate nothing is detected.

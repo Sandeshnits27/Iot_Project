@@ -1,0 +1,72 @@
+[
+  {
+    "fullName": "John Doe",
+    "email": "john.doe@example.com",
+    "password": "password123",
+    "role": "user",
+    "devices": []
+  },
+  {
+    "fullName": "Jane Smith",
+    "email": "jane.smith@example.org",
+    "password": "securePass",
+    "role": "admin",
+    "devices": []
+  },
+  {
+    "fullName": "Peter Jones",
+    "email": "peter.jones@test.net",
+    "password": "test1234",
+    "role": "user",
+    "devices": []
+  },
+  {
+    "fullName": "Alice Brown",
+    "email": "alice.brown@sample.com",
+    "password": "mysecret",
+    "role": "user",
+    "devices": []
+  },
+  {
+    "fullName": "Bob Green",
+    "email": "bob.green@work.io",
+    "password": "workpass",
+    "role": "admin",
+    "devices": []
+  },
+  {
+    "fullName": "Carol White",
+    "email": "carol.white@home.net",
+    "password": "home123",
+    "role": "user",
+    "devices": []
+  },
+  {
+    "fullName": "David Black",
+    "email": "david.black@code.dev",
+    "password": "code456",
+    "role": "user",
+    "devices": []
+  },
+  {
+    "fullName": "Eve Grey",
+    "email": "eve.grey@data.ai",
+    "password": "data789",
+    "role": "admin",
+    "devices": []
+  },
+  {
+    "fullName": "Frank Red",
+    "email": "frank.red@cloud.com",
+    "password": "cloud101",
+    "role": "user",
+    "devices": []
+  },
+  {
+    "fullName": "Grace Blue",
+    "email": "grace.blue@iot.org",
+    "password": "iot202",
+    "role": "user",
+    "devices": []
+  }
+]

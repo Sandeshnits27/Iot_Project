@@ -1,0 +1,9 @@
+Next steps:
+
+1) Use the connection credentials as env. 
+2) Restructure the application. 
+3) Demo MQTT
+4) Save password as hash
+5) Use the database trigger to inform db events to node js in realtime. 
+6) Use websocket to publish real time sensor values from node js to frontend.
+7) If there is time then explain you the basics of JWT tokens.

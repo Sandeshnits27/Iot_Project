@@ -1,0 +1,42 @@
+[
+  {
+    "topic": "TEMP_LIVINGROOM",
+    "value": "25.5"
+  },
+  {
+    "topic": "HUMID_KITCHEN",
+    "value": "62.3"
+  },
+  {
+    "topic": "MOTION_HALLWAY",
+    "value": "1"
+  },
+  {
+    "topic": "LIGHT_BEDROOM",
+    "value": "350"
+  },
+  {
+    "topic": "WATER_BATHROOM",
+    "value": "0"
+  },
+  {
+    "topic": "GAS_GARAGE",
+    "value": "LOW"
+  },
+  {
+    "topic": "PRESSURE_GARDEN",
+    "value": "1012.5"
+  },
+  {
+    "topic": "AIRQUALITY_BALCONY",
+    "value": "45"
+  },
+  {
+    "topic": "SOILMOISTURE_PLANT1",
+    "value": "78"
+  },
+  {
+    "topic": "INFRARED_FRONTDOOR",
+    "value": "0"
+  }
+]

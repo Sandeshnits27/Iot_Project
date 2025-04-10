@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Temperature Sensor 1",
+    "location": "Living Room",
+    "topic": "TEMP_LIVINGROOM"
+  },
+  {
+    "name": "Humidity Sensor Kitchen",
+    "location": "Kitchen",
+    "topic": "HUMID_KITCHEN"
+  },
+  {
+    "name": "Motion Detector Hallway",
+    "location": "Hallway",
+    "topic": "MOTION_HALLWAY"
+  },
+  {
+    "name": "Light Sensor Bedroom",
+    "location": "Bedroom",
+    "topic": "LIGHT_BEDROOM"
+  },
+  {
+    "name": "Water Leak Sensor Bathroom",
+    "location": "Bathroom",
+    "topic": "WATER_BATHROOM"
+  },
+  {
+    "name": "Gas Sensor Garage",
+    "location": "Garage",
+    "topic": "GAS_GARAGE"
+  },
+  {
+    "name": "Pressure Sensor Garden",
+    "location": "Garden",
+    "topic": "PRESSURE_GARDEN"
+  },
+  {
+    "name": "Air Quality Monitor Balcony",
+    "location": "Balcony",
+    "topic": "AIRQUALITY_BALCONY"
+  },
+  {
+    "name": "Soil Moisture Sensor Plant1",
+    "location": "Indoor Plant",
+    "topic": "SOILMOISTURE_PLANT1"
+  },
+  {
+    "name": "Infrared Sensor FrontDoor",
+    "location": "Front Door",
+    "topic": "INFRARED_FRONTDOOR"
+  }
+]
