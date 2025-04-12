@@ -1,10 +1,15 @@
 const express = require("express");
 const path = require("path");
 const mongoose = require('mongoose');
+const cors = require('cors')
 
 const app = express();
 app.use(express.json());
 app.use(express.static(path.join(__dirname , "public")));
+
+app.use(cors({
+  origin: "*",
+}))
 
 const userSchema = new mongoose.Schema({
     fullName: {
@@ -90,24 +95,26 @@ app.get("/findAllUsers", async (request, response) => {
 })
 
 app.post("/insertUser", async (request, response) => {
-    try {
-        const fullName = request.body.fullName;
-        const email = request.body.email;
-        const password = request.body.password;
+  try {
+    const { fullName, email, password } = request.body;
 
-        await mongoose.connect('mongodb://localhost:27017/iotdb');
+    await mongoose.connect('mongodb://localhost:27017/iotdb');
 
-        await UserModel.insertOne(
-            { "fullName": fullName, "email": email, "password": password } 
-        );
-        response.status(201).send({ "success": true, "message": "Signup successful" })
-    } catch(error){
-        response.status(500).send({ "success": false, "message": "Internal server error" })
-    } finally{
-        await mongoose.disconnect();  
+    const existingUser = await UserModel.findOne({ email });
+    if (existingUser) {
+      return response.status(400).send({ success: false, message: "Email already registered" });
     }
 
+    await UserModel.create({ fullName, email, password });
+    response.status(201).send({ success: true, message: "Signup successful" });
+  } catch (error) {
+    console.error("Signup error:", error);
+    response.status(500).send({ success: false, message: "Internal server error" });
+  } finally {
+    await mongoose.disconnect();
+  }
 });
+
 
 app.post("/login", async (request, response) => {
     try {
